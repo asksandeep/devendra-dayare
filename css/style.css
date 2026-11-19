@@ -204,11 +204,13 @@ a {
 .stat strong {
   font:800 1.25rem Manrope;
   color:var(--navy);
-  display:block}
+  display:block;
+}
 
 .stat span {
   font-size:.82rem;
-  color:var(--muted)}
+  color:var(--muted);
+}
 
 .hero-art {
   position:relative;
