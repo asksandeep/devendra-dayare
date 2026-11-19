@@ -687,7 +687,7 @@ a {
   padding-top:20px;
   display:flex;
   justify-content:space-between;
-  gap:20px;
+  gap:00px;
   color:#9ca3af;
   font-size:.83rem}
 
@@ -746,7 +746,7 @@ a {
 
 }
 
-@media(max-width:650px) {
+@media(max-width:768px) {
   .nav {
   height:70px}
 
@@ -953,16 +953,13 @@ a {
  .hero-card {
     position: relative;
     width: 100%;
-    max-width: 580px;
-    aspect-ratio: 580 / 482;
+    max-width: 768px;
+    aspect-ratio: 768 / 582;
     border-radius: var(--radius);
     overflow: hidden;
     box-shadow: 0 20px 50px rgba(20, 50, 100, .18);
     background: #2a8fe8;
   }
-  /* ---- Image layer ----
-     To use your real photo: replace the <svg class="scene"> with
-     <img class="scene" src="solar-roof.jpg" alt="Solar panels on a home roof"> */
   .scene { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
   .badge {
